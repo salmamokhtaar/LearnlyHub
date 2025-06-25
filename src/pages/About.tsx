@@ -1,4 +1,3 @@
-
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Target, Users, Trophy, Heart, BookOpen, Globe, Award, Zap } from "lucide-react";
@@ -6,25 +5,25 @@ import { Target, Users, Trophy, Heart, BookOpen, Globe, Award, Zap } from "lucid
 const About = () => {
   const teamMembers = [
     {
-      name: "Sarah Johnson",
+      name: "Amina Hassan",
       role: "CEO & Founder",
       avatar: "https://images.unsplash.com/photo-1494790108755-2616b612b5c5?w=200&h=200&fit=crop&crop=face",
-      bio: "Former Google engineer with a passion for education and technology."
+      bio: "Former tech engineer with a passion for education and technology in Somalia."
     },
     {
-      name: "Mike Chen",
+      name: "Omar Mohamed",
       role: "CTO",
       avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&h=200&fit=crop&crop=face",
       bio: "Full-stack developer and architect with 10+ years in tech education."
     },
     {
-      name: "Emma Davis",
+      name: "Fadumo Ali",
       role: "Head of Content",
       avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&h=200&fit=crop&crop=face",
-      bio: "Educational content specialist with expertise in curriculum design."
+      bio: "Educational content specialist with expertise in Somali curriculum design."
     },
     {
-      name: "David Wilson",
+      name: "Mahad Ibrahim",
       role: "Lead Designer",
       avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop&crop=face",
       bio: "UX/UI designer focused on creating intuitive learning experiences."

@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
@@ -19,7 +18,7 @@ const Index = () => {
     {
       id: 1,
       title: "Complete Web Development Bootcamp",
-      instructor: "Sarah Johnson",
+      instructor: "Amina Hassan",
       rating: 4.8,
       students: 12453,
       price: "$89",
@@ -28,7 +27,7 @@ const Index = () => {
     {
       id: 2,
       title: "UI/UX Design Masterclass",
-      instructor: "Mike Chen",
+      instructor: "Omar Mohamed",
       rating: 4.9,
       students: 8765,
       price: "$79",
@@ -37,7 +36,7 @@ const Index = () => {
     {
       id: 3,
       title: "Digital Marketing Strategy",
-      instructor: "Emma Davis",
+      instructor: "Fadumo Ali",
       rating: 4.7,
       students: 5432,
       price: "$65",
@@ -47,21 +46,21 @@ const Index = () => {
 
   const testimonials = [
     {
-      name: "Alex Rodriguez",
+      name: "Ahmed Abdi",
       role: "Software Developer",
-      content: "Learnly transformed my career. The courses are practical and well-structured.",
+      content: "Learnly waxay isbadashay xirfaddeyda. Koorsadku waa mid casri ah oo si fiican u qorsan.",
       avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=60&h=60&fit=crop&crop=face"
     },
     {
-      name: "Jessica Kim",
+      name: "Sahra Yusuf",
       role: "UX Designer",
-      content: "Amazing platform with top-notch instructors. Highly recommend!",
+      content: "Barnaaamijkan waa mid aad u fiican oo leh macallimiin heer sare ah. Waan ku talinayaa!",
       avatar: "https://images.unsplash.com/photo-1494790108755-2616b612b5c5?w=60&h=60&fit=crop&crop=face"
     },
     {
-      name: "David Thompson",
+      name: "Mahad Ibrahim",
       role: "Marketing Manager",
-      content: "The courses here helped me advance in my marketing career significantly.",
+      content: "Koorsadka halkan waxay ii caawiyeen inaan ku horumaray xirfadda suuq-geynta.",
       avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=60&h=60&fit=crop&crop=face"
     },
   ];

@@ -26,11 +26,11 @@ export default {
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
 				primary: {
-					DEFAULT: '#6C63FF',
+					DEFAULT: '#3A59D1',
 					foreground: '#FFFFFF'
 				},
 				accent: {
-					DEFAULT: '#FF6584',
+					DEFAULT: '#8CCDEB',
 					foreground: '#FFFFFF'
 				},
 				secondary: {
@@ -69,9 +69,9 @@ export default {
 				'inter': ['Inter', 'sans-serif'],
 			},
 			backgroundImage: {
-				'gradient-soft': 'linear-gradient(to bottom, #fefefe, #f0f4ff, #dfe8ff)',
-				'gradient-primary': 'linear-gradient(135deg, #6C63FF, #FF6584)',
-				'gradient-card': 'linear-gradient(135deg, rgba(108, 99, 255, 0.1), rgba(255, 101, 132, 0.1))',
+				'gradient-soft': 'linear-gradient(to bottom, #8CCDEB, #ffffff, #3A59D1)',
+				'gradient-primary': 'linear-gradient(135deg, #3A59D1, #8CCDEB)',
+				'gradient-card': 'linear-gradient(135deg, rgba(58, 89, 209, 0.1), rgba(140, 205, 235, 0.1))',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
