@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -29,7 +30,7 @@ export default {
 					foreground: '#FFFFFF'
 				},
 				accent: {
-					DEFAULT: '#FF6584',
+					DEFAULT: '#4F46E5',
 					foreground: '#FFFFFF'
 				},
 				secondary: {
@@ -68,9 +69,9 @@ export default {
 				'inter': ['Inter', 'sans-serif'],
 			},
 			backgroundImage: {
-				'gradient-soft': 'linear-gradient(to bottom, #fefefe, #f0f4ff, #dfe8ff)',
-				'gradient-primary': 'linear-gradient(135deg, #6C63FF, #FF6584)',
-				'gradient-card': 'linear-gradient(135deg, rgba(108, 99, 255, 0.1), rgba(255, 101, 132, 0.1))',
+				'gradient-soft': 'linear-gradient(to bottom, #ffffff, #f0f4ff, #e0e7ff)',
+				'gradient-primary': 'linear-gradient(135deg, #6C63FF, #4F46E5)',
+				'gradient-card': 'linear-gradient(135deg, rgba(108, 99, 255, 0.1), rgba(79, 70, 229, 0.1))',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
