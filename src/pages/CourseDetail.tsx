@@ -131,7 +131,7 @@ const CourseDetail = () => {
 
               <div className="flex items-center space-x-4">
                 <img 
-                  src={course.instructor.avatar} 
+                  
                   alt={course.instructor.name}
                   className="w-12 h-12 rounded-full"
                 />
@@ -250,7 +250,7 @@ const CourseDetail = () => {
                 <h3 className="font-poppins font-bold text-xl mb-4">Instructor</h3>
                 <div className="text-center mb-4">
                   <img 
-                    src={course.instructor.avatar} 
+                    
                     alt={course.instructor.name}
                     className="w-20 h-20 rounded-full mx-auto mb-3"
                   />
